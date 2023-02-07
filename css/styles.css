@@ -157,8 +157,19 @@ img {
 }
 
 /*📌=== hero  */
+
 .hero-wrapper {
-  background-color: var(--blue-color);
+  min-width: 1440px;
+  margin: 0 auto;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ .jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -222,6 +233,32 @@ img {
   letter-spacing: 0.02em;
 }
 
+.advantages-item::before {
+  display: block;
+  content: '';
+  height: 112px;
+
+  background-position: center;
+  background-color: #f4f4fd;
+  background-size: 64px 64px;
+}
+.icon-antenna::before {
+  background-image: url(../images/antenna.svg);
+  background-repeat: no-repeat;
+}
+.icon-clock::before {
+  background-image: url(../images/clock.svg);
+  background-repeat: no-repeat;
+}
+.icon-diagram::before {
+  background-image: url(../images/diagram.svg);
+  background-repeat: no-repeat;
+}
+.icon-astronaut::before {
+  background-image: url(../images/astronaut.svg);
+  background-repeat: no-repeat;
+}
+
 /* 📌 ===work examples */
 .work-section {
   padding: 60px 0 120px;
@@ -256,7 +293,7 @@ img {
   margin-right: 24px;
 }
 .staff-wrapper {
-  padding: 32px 12px;
+  padding: 32px 16px;
   text-align: center;
 }
 .staff-title {
@@ -271,6 +308,30 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.soc-icon {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-list {
+  /* ??? */
+}
+.icon-item {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--accent-color);
+}
+.icon-item:hover,
+.icon-item:focus {
+  background-color: var(--variable-color);
+}
+.soc-icon-item {
+  /* ??? */
 }
 
 /* 📌 === footer  */
