@@ -57,15 +57,15 @@
     <main>
       <!--📌=================================== hero  -->
 
-      <div class="hero-wrapper">
-        <section class="hero">
+      <sectioniv class="hero-wrapper">
+        <div class="hero">
           <h1 class="hero-title">
             Effective Solutions <br />
             for Your Business
           </h1>
           <button class="hero-button" type="button">Order Service</button>
-        </section>
-      </div>
+        </div>
+      </sectioniv>
 
       <!-- 📌==============================advantages  -->
 
@@ -73,28 +73,48 @@
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list">
-            <li class="advantages-item icon-antenna">
+            <li class="advantages-item">
+              <div class="advantages-top">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-antenna" />
+                </svg>
+              </div>
               <h3 class="advantages-title">Strategy</h3>
               <p class="advantages-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="advantages-item icon-clock">
+            <li class="advantages-item">
+              <div class="advantages-top">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-clock" />
+                </svg>
+              </div>
               <h3 class="advantages-title">Punctuality</h3>
               <p class="advantages-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="advantages-item icon-diagram">
+            <li class="advantages-item">
+              <div class="advantages-top">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-diagram" />
+                </svg>
+              </div>
               <h3 class="advantages-title">Diligence</h3>
               <p class="advantages-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="advantages-item icon-astronaut">
+            <li class="advantages-item">
+              <div class="advantages-top">
+                <svg width="64" height="64">
+                  <use href="./images/icons.svg#icon-astronaut" />
+                </svg>
+              </div>
               <h3 class="advantages-title">Technologies</h3>
               <p class="advantages-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -307,12 +327,62 @@
           </ul>
         </div>
       </section>
+      <!-- =========================================Customers=============== -->
+      <section class="customers">
+        <div class="container">
+          <h2 class="section-title">Customers</h2>
+          <ul class="customers-list">
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo" />
+                </svg>
+              </a>
+            </li>
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="60">
+                  <use href="./images/icons.svg#icon-Logo1" />
+                </svg>
+              </a>
+            </li>
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo2" />
+                </svg>
+              </a>
+            </li>
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo3" />
+                </svg>
+              </a>
+            </li>
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo4" />
+                </svg>
+              </a>
+            </li>
+            <li class="customer-title">
+              <a class="customers-item" href="">
+                <svg class="customers-icon-item" width="104" height="56">
+                  <use href="./images/icons.svg#icon-Logo5" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!--📌==========================================footer -->
 
     <footer class="page-footer">
-      <div class="container">
+      <div class="container footer-container">
         <div class="logo-group">
           <a href="/index.html" class="logo light"
             >Web<span class="logo-right">Studio</span></a
@@ -321,6 +391,39 @@
             Increase the flow of customers and sales for your business with
             digital marketing & growth solutions.
           </p>
+        </div>
+        <div class="social-group">
+          <h3 class="social-title">Social media</h3>
+          <ul class="social-icon">
+            <li>
+              <a class="social-item" href="">
+                <svg class="soc-icon-item" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-item" href="">
+                <svg class="soc-icon-item" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-item" href=""
+                ><svg class="soc-icon-item" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="social-item" href=""
+                ><svg class="soc-icon-item" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin" />
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </footer>
