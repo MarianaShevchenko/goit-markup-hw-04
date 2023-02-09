@@ -216,6 +216,8 @@ img {
 }
 .advantages-top {
   height: 112px;
+  margin-bottom: 8px;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -435,16 +437,25 @@ img {
   flex-wrap: wrap;
   margin: -24px -12px;
 }
+.projects-item:hover,
+.projects-item:focus {
+  border: 0.5px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 .projects-item {
   width: 360px;
   margin: 24px 12px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 .projects-bottom {
   padding: 32px 16px;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-bottom: 1px solid #e7e9fc;
 }
+
 .projects-title {
   margin-bottom: 8px;
   color: var(--blue-color);
